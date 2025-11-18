@@ -1,7 +1,9 @@
+package GLOSARIO;
 
-	import java.util.Scanner;
 
-	public class InventarioCamisetas {
+    import java.util.Scanner;
+
+	public class InventarioCamiseta {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        String[] colores = {"Rojo", "Azul", "Verde", "Amarillo"};
@@ -46,7 +48,5 @@
 	        return colores[maxIndex];
 	    }
 	}
-	
-
     
 
